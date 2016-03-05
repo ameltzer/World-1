@@ -12,12 +12,6 @@ package world;
 public class chracterClass {
     private String className;
     
-    private String Strength;
-    private String Dexterity;
-    private String Constitution;
-    private String Intelligence;
-    private String Speed;
-    
     private String mana;
     private String itemCap;
     private String[] proficientWeapons;
@@ -27,41 +21,6 @@ public class chracterClass {
      */
     public String getClassName() {
         return className;
-    }
-
-    /**
-     * @return the Strength
-     */
-    public String getStrength() {
-        return Strength;
-    }
-
-    /**
-     * @return the Dexterity
-     */
-    public String getDexterity() {
-        return Dexterity;
-    }
-
-    /**
-     * @return the Constitution
-     */
-    public String getConstitution() {
-        return Constitution;
-    }
-
-    /**
-     * @return the Intelligence
-     */
-    public String getIntelligence() {
-        return Intelligence;
-    }
-
-    /**
-     * @return the Speed
-     */
-    public String getSpeed() {
-        return Speed;
     }
 
     /**
