@@ -16,6 +16,14 @@ public class stats {
     private String Intelligence;
     private String Speed;
 
+    public stats(String Strength, String Dexterity, String Constitution, String Intelligence, String Speed) {
+        this.Strength = Strength;
+        this.Dexterity = Dexterity;
+        this.Constitution = Constitution;
+        this.Intelligence = Intelligence;
+        this.Speed = Speed;
+    }
+
     /**
      * @return the Strength
      */

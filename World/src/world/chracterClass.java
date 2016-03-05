@@ -5,6 +5,8 @@
  */
 package world;
 
+import java.util.List;
+
 /**
  *
  * @author quantumDrop
@@ -14,7 +16,14 @@ public class chracterClass {
     
     private String mana;
     private String itemCap;
-    private String[] proficientWeapons;
+    private List<String> proficientWeapons;
+
+    public chracterClass(String className, String mana, String itemCap, List<String> proficientWeapons) {
+        this.className = className;
+        this.mana = mana;
+        this.itemCap = itemCap;
+        this.proficientWeapons = proficientWeapons;
+    }
 
     /**
      * @return the classType
@@ -40,7 +49,7 @@ public class chracterClass {
     /**
      * @return the proficientWeapons
      */
-    public String[] getProficientWeapons() {
+    public List<String> getProficientWeapons() {
         return proficientWeapons;
     }
     
